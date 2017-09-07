@@ -9,6 +9,7 @@ scanf("%d",&n);
 printf("Enter the row and column size of matrix 2 : ");
 scanf("%d",&o);
 scanf("%d",&p);
+if(n==o){
 printf("Enter the matrix 1 : ");
 for(i=0;i<m;i++)
 {
@@ -44,6 +45,8 @@ for(j=0;j<p;j++)
 printf("%d\t",c[i][j]);
 }
 }
+}
+else{printf("The matrices cannot be multiplied. ");}
 getch();
 }
 
