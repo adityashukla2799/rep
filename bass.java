@@ -1,7 +1,8 @@
 public class bass {
 public static void main(String[] args)
 {
-System.out.println("Fuck you");
+String sayFuckYou = new String("Fuck You");
+System.out.println(sayFuckYou);
 }
 }
 
